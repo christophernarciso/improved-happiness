@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,16 +26,36 @@
         }
     </style>
 </head>
+
 <body>
 
-Home
-About
-Contact
-Blog
-Careers
+    <header class="header">
+        <!-- Mobile Approach first -->
+        <nav class="flex flex-jc-sb flex-ai-c">
+            <!-- Site Logo -->
+            <a href="/" alt="Easybank" class="header__logo">
+                <img src="images/logo.svg" alt="Easybank" />
+            </a>
+            <!-- Nav Hamburger Menu -->
+            <a href="#" class="header__menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <!--  Desktop Menu -->
+            <div class="header__links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+            </div>
 
-Request Invite
+            <button type="button">Request Invite</button>
+        </nav>
+    </header>
 
+    <!--
 
 Next generation digital banking
 
@@ -99,12 +120,13 @@ Privacy Policy
 Request Invite
 
 © Easybank. All Rights Reserved
+-->
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Christoper Narciso</a>.
+    </div>
 
-<div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-</div>
-
-<script src="app/js/script.js"></script>
+    <script src="app/js/script.js"></script>
 </body>
+
 </html>
