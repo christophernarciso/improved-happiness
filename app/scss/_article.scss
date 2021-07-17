@@ -1,0 +1,9 @@
+.article {
+    background-color: $veryLightGray;
+    text-align: center;
+
+    @include breakpoint-up(medium) {
+        text-align: left;
+    }
+
+}
