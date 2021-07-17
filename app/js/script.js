@@ -27,7 +27,6 @@ menu.addEventListener('click', function() {
 // Listener for our mobile menu links when a user selects a option.
 for (var link of mobileLinks) {
     link.addEventListener('click', function() {
-        console.log('Clicked a link');
         // Remove no scroll on click
         body.classList.remove('no-scroll');
     
