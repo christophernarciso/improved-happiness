@@ -285,6 +285,7 @@ button:hover, .button:hover {
 }
 
 .header .overlay {
+  z-index: 1;
   position: fixed;
   top: 0;
   right: 0;
@@ -295,6 +296,7 @@ button:hover, .button:hover {
 }
 
 .header nav {
+  z-index: 3;
   position: relative;
   background-color: white;
   padding-top: 1.0625rem;
@@ -307,6 +309,7 @@ button:hover, .button:hover {
 }
 
 .header__toggle > span {
+  z-index: 2;
   display: block;
   width: 26px;
   height: 2px;
@@ -322,6 +325,7 @@ button:hover, .button:hover {
 }
 
 .header__menu {
+  z-index: 4;
   background: white;
   padding: 1.625rem;
   border-radius: 5px;
